@@ -135,6 +135,10 @@ h6 {
 	text-shadow: 0 0 1px grey;
 }
 
+.content-center {
+	text-align: center;
+}
+
 .btn-center {
 	margin: 0 auto;
 }

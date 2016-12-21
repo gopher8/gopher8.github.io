@@ -129,6 +129,12 @@ h6 {
 	margin-top: 30px;
 }
 
+/* Supe up button style */
+.btn-info{
+	box-shadow: 2px 2px 1px grey;
+	text-shadow: 0 0 1px grey;
+}
+
 .banner {
     padding: 100px 0;
     color: #f8f8f8;

@@ -130,9 +130,13 @@ h6 {
 }
 
 /* Supe up button style */
-.btn-info{
+.btn-info {
 	box-shadow: 2px 2px 1px grey;
 	text-shadow: 0 0 1px grey;
+}
+
+.btn-center {
+	margin: 0 auto;
 }
 
 .banner {

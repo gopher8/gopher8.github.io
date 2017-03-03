@@ -1,0 +1,226 @@
+.offcanvas-wrap {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.sidr {
+  display: block;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  z-index: 999999;
+  width: 350px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-size: 15px;
+  background: #252525;
+  color: #333;
+  text-align: center;
+}
+.sidr{
+  .decor-bar {
+    position: relative;
+    z-index: 999;
+    img{
+        width: 130px;
+    }
+  }
+  h2.site-title{
+    margin-bottom: 0;
+    margin-top: 0;
+     a{
+      margin: 0;
+      text-transform: uppercase;
+      font-size: 30px;
+      font-family: "Baskerville";
+      color: #fff;
+      margin-top: 3px;
+      margin-bottom: 0;
+    }
+  }
+  .site-description{
+    margin: 0;
+    color: #fff;
+  }
+  .hero-star i {
+      font-size: 10px;
+      color: $color__theme;
+  }
+  .hero-star i:nth-child(3){
+    font-size: 14px;
+  }
+  .decor-bar img{
+      width: 180px;
+  }
+}
+.sidr .sidr-inner {
+  padding: 0 0 15px;
+}
+.sidr .sidr-inner > p {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.sidr.right {
+  left: auto;
+  right: -350px;
+}
+.sidr.left {
+  left: -350px;
+  right: auto;
+}
+.sidr p {
+  font-size: 13px;
+  margin: 15px 0 12px;
+}
+.sidr p a {
+  color: rgba(51, 51, 51, 0.9);
+}
+.sidr > p {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.sidr ul {
+  display: block;
+  margin: 50px 0 15px 0;
+  padding: 0;
+  text-align: center;
+  float: none;
+}
+.sidr ul li {
+  display: block;
+  margin: 0;
+  width: 100%;
+  line-height: 43px;
+  padding: 0;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+
+}
+.sidr ul li a,
+.sidr ul li span {
+  padding: 0;
+  display: block;
+  text-decoration: none;
+  color: #666666;
+  position: relative;
+  text-transform: uppercase;
+  padding: 14px 0;
+  transition: all 0.3s ease;
+  font-family: $text-btn;
+  font-size: 16px;
+  font-weight: 600;
+  &:hover,&:focus{
+    background: 0;
+    color: #aaaaaa;
+  }
+}
+.sidr ul li span {
+  color: $color__theme;
+}
+.sidr ul.menu li span.fa {
+  font-size: 22px;
+}
+.sidr ul li ul {
+  border-bottom: 0;
+  margin: 0;
+}
+.sidr ul li ul li {
+  line-height: 43px;
+  font-size: 13px;
+}
+.sidr ul li ul li:last-child {
+  border-bottom: 0;
+}
+.sidr ul li ul li:hover > a,
+.sidr ul li ul li:hover > span, .sidr ul li ul li.active > a,
+.sidr ul li ul li.active > span, .sidr ul li ul li.sidr-class-active > a,
+.sidr ul li ul li.sidr-class-active > span,
+.sidr ul li.current-menu-item > a{
+
+}
+.sidr ul li ul li a,
+.sidr ul li ul li span {
+  padding-left: 30px;
+}
+.sidr ul li .sidedropdown{
+  font-size: 24px;
+  position: absolute;
+  right: 32px;
+}
+.sidr ul.sub-menu li a {
+    padding: 0 40px 0 55px;
+    font-size: 14px;
+}
+
+.sidr .social-nav {
+    padding: 0 30px;
+    margin: 35px 0 15px 0;
+    text-align: center;
+}
+.sidr .social-nav li {
+    display: inline-block;
+    border: none;
+}
+.sidr .social-nav li a {
+    display: inline-block;
+    border: none;
+    padding: 0;
+    letter-spacing: normal !important;
+}
+.sidr .social-nav li a span {
+    display: inline-block;
+    padding: 9px;
+}
+.sidr .copyright a{
+  color: $color__theme;
+}
+
+.sidr {
+  .navbar-brand {
+    float: none;
+    display: block;
+    position: relative;
+    text-align: center;
+
+    span{
+      margin-top: 20px;
+      padding: 8px 13px;
+      text-transform: uppercase;
+      font-size: 22px;
+      font-family: "Montserrat", sans-serif;
+    }
+    p{
+      margin: 7px 0 12px;
+    }
+  }
+}
+
+.sidr .sub-menu {
+  display: none;
+  opacity: 0;
+}
+.sidr .sub-menu.open {
+  display: block;
+  opacity: 1;
+  border: 1px solid;
+}
+.sidr{
+  .custom-logo{
+    display: block;
+    max-height: 90px;
+    width: auto;
+    margin: 0 auto;
+  }
+}
+.back-btn-div {
+    display: block;
+    background: rgb(43, 43, 43) !important;
+    padding: 8px 27px !important;
+    margin-bottom: 35px;
+    text-align: left;
+    i{
+      color: #fff;
+      font-size: 25px;
+    }
+}

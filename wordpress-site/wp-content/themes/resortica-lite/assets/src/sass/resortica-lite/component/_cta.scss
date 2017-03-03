@@ -1,0 +1,32 @@
+.cta-sec{
+    position: relative;
+    text-align: center;
+    background: url("../img/symphony.png") repeat;
+    &:before{
+        background: rgba(255, 255, 255, 0.42);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        content: '';
+    }
+    .cta-title {
+        font-size: 36px;
+        font-style: italic;
+        font-weight: lighter;
+        margin: 0;
+        margin-bottom: 25px;
+        color: #999999;
+        text-transform: uppercase;
+        line-height: 48px;
+    }
+    p{
+        font-weight: lighter;
+        color: $color__black-light;
+        margin-bottom: 30px;
+    }
+    .section-content {
+        padding: 35px 180px;
+    }
+}

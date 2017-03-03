@@ -1,0 +1,20 @@
+.social-footer{
+    ul.social {
+        list-style: none;
+        padding: 0;
+        margin: 10px 0 0 0;
+        li {
+            display: inline-block;
+            margin-right: 15px;
+            a{
+                color: #999999;
+                &:hover{
+                    color: $color__theme;
+                }
+                i{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}

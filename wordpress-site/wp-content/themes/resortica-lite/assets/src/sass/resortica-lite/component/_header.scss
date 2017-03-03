@@ -1,0 +1,201 @@
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 15px;
+    color: #fff;
+        background-size: cover !important;
+        -webkit-background-size: cover;
+            -moz-background-size: cover;
+                background-size: cover;
+                    -o-background-size: cover;
+    .hero-title {
+        margin: 0;
+        padding: 0;
+        font-size: 60px;
+        font-family: $text-italic;
+        font-style: italic;
+        font-weight: normal;
+    }
+    .hero-tagline{
+        text-transform: uppercase;
+        font-size: 21px;
+        margin-bottom: 20px;
+    }
+    .hero-star i {
+        font-size: 10px;
+        color: $color__theme;
+    }
+    .decor-bar img{
+        width: 180px;
+    }
+    .hero-star {
+        position: relative;
+        text-align: center;
+    }
+}
+
+/* Main Navigation */
+.navigation-wrap{
+    position: absolute;
+    z-index: 99;
+    left: 0;
+    width: 100%;
+    .navbar{
+        border-radius: 0;
+    }
+    .navbar-default{
+        background-color: transparent;
+        border: 0;
+        max-height: 58px;
+    }
+    .navbar-nav {
+      width: 100%;
+      text-align: center;
+      li {
+          float: none;
+          display: inline-block;
+        }
+    }
+}
+.nav > li > a > img {
+    max-width: none;
+    background: #999;
+}
+.nav{
+    .social {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        float: left;
+        li {
+            margin-right: 15px;
+            i{
+                font-size: 16px;
+                color: #fff;
+            }
+        }
+    }
+    .search{
+        display: inline-block;
+        line-height: 56px;
+        border-left: 1px solid rgba(255, 255, 255, 0.2);
+        i{
+            font-size: 18px;
+        }
+    }
+    li.pull-right{
+        line-height: 56px;
+    }
+}
+.menu-btn{
+    color: #fff !important;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 18px 10px !important;
+    i{
+        margin-right: 7px;
+    }
+}
+.hero-star i {
+    font-size: 10px;
+    color: $color__theme;
+}
+.hero-star i:nth-child(3){
+    font-size: 14px;
+}
+.navbar-brand{
+    padding: 0;
+    display: block;
+    background: rgba(0, 0, 0, 0.7) !important;
+    padding: 15px 25px 28px 25px;
+    min-width: 200px;
+    width: 214px;
+    height: 100%;
+    .custom-logo{
+        display: block;
+        max-height: 90px;
+        width: auto;
+        margin: 0 auto;
+    }
+    .decor-bar {
+        position: relative;
+        z-index: 999;
+        img{
+            width: 130px;
+        }
+    }
+    h2.site-title{
+        margin: 0;
+        text-transform: uppercase;
+        font-size: 30px;
+        font-family: "Baskerville";
+        color: #fff;
+        margin-top: 3px;
+        margin-bottom: 5px;
+        a{
+            color: #fff;
+        }
+    }
+    .site-description{
+        font-size: 14px;
+        color: #fff;
+        margin-bottom: 5px;
+    }
+}
+.content-inner{
+    position: relative;
+    .hero-star{
+        &:before{
+            position: absolute;
+            content: '';
+            background-color: rgba(255, 255, 255, 0.2);
+            height: 1px;
+            width: 140px;
+            top: 15px;
+            right: 42%;
+
+        }
+        &:after {
+            position: absolute;
+            content: '';
+            background-color: rgba(255, 255, 255, 0.2);
+            height: 1px;
+            width: 140px;
+            top: 15px;
+            left: 42%;
+        }
+    }
+}
+
+.hero{
+    li.nav-list {
+        position: absolute;
+        top: 0;
+        left: 41%;
+        z-index: -1;
+        img{
+            // margin-left: 40px;
+        }
+    }
+}
+nav.navbar.navbar-default:before {
+    position: absolute;
+    content: '';
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 1px;
+    width: 467px;
+    bottom: -7px;
+    left: 0;
+}
+nav.navbar.navbar-default:after {
+    position: absolute;
+    content: '';
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 1px;
+    width: 458px;
+    bottom: -7px;
+    right: 0;
+}

@@ -1,0 +1,201 @@
+/* ....................Media Queries....................... */
+/*Media Queries*/
+@media only screen and (min-width: 1400px){
+}
+@media only screen and (min-width: 990px) and (max-width : 1200px) {
+
+}
+
+@media only screen and (max-width: 989px) {
+  .section-about .about-content{
+    width: 100%;
+  }
+  .section-about .about-slider{
+    width: 100%;
+  }
+  .section-about .about-image{
+    width: 100%;
+  }
+  .section-about .about-video{
+    width: 100%;
+  }
+  .about-content{
+    min-height: 370px !important;
+  }
+  .section-about .slider-nav {
+    display: inline-block;
+    z-index: 9999;
+    width: 43.5%;
+    float: left;
+    top: -114px;
+    position: relative !important;
+  }
+  .section-special-offers .counter-wrap .counter-item{
+    width: 50%;
+    margin-left: -3px;
+  }
+  .copyright{
+    text-align: center;
+  }
+  .copyright nav.pull-right{
+    float: none !important;
+  }
+  .nav li.pull-right {
+    line-height: 56px;
+    display: inline-block;
+    margin-top: 0;
+    text-align: center;
+    margin-right: 0;
+  }
+  .navigation-wrap .navbar-default{
+    border-bottom: 0;
+  }
+  .header{
+    padding: 0;
+  }
+  .nav-list{
+    display: block !important;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 42px;
+    margin-left: 13px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin-top: 57px;
+    padding-top: 22px;
+
+    .navbar-brand{
+      float: none !important;
+      margin-left: 0;
+      background: none !important;
+      padding: 0 !important;
+      .decor-bar{
+        background: 0;
+        padding: 0;
+      }
+    }
+  }
+  .nav{
+    li.pull-left {
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+  }
+  .navbar-nav {
+    margin: 0;
+  }
+  .margin-bot{
+      margin-bottom: 30px;
+  }
+  .hero li.nav-list {
+    position: relative;
+    top: 0;
+    left: auto;
+  }
+  .widget-area .margin-bot:last-child{
+    margin-bottom: 0;
+  }
+  nav.navbar.navbar-default:before {
+    display: none;
+  }
+  nav.navbar.navbar-default:after {
+    display: none;
+  }
+  .navbar-brand{
+    width: auto;
+  }
+  .sidebar{
+    margin-top: 30px;
+  }
+  .page-not-found {
+    .search-form{
+      label{
+          width: 100% !important;
+      }
+    }
+  }
+  .page-not-found .search-form .search-submit{
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .section-explore .rl-explore-slider-item .explore-slider-desc-wrap{
+    width: 250px;
+  }
+  .section-explore .rl-explore-slider-item .explore-slider-desc-wrap .explore-body{
+      padding: 50px 30px 30px 30px;
+  }
+  .cta-sec .section-content{
+    padding: 35px 80px;
+  }
+  .client-testimonials .testimonial-slide .client-testimonial p{
+    padding: 0;
+  }
+  .search-box-wrapper {
+    left: 10%;
+    width: 100%;
+  }
+  .form input{
+    width: 85%;
+    font-size: 40px;
+  }
+  .header{
+    height: 800px;
+  }
+  // .header{
+  //   height: 650px;
+  // }
+  .section-explore .rl-explore-slider-item .explore-slider-desc-wrap .explore-body h2.explore-slider-title{
+    font-size: 31px;
+    line-height: 43px;
+  }
+    .client-testimonials .slick-prev {
+    left: 38%;
+  }
+  .client-testimonials .slick-next {
+    right: 42%;
+  }
+  .search-form .search-submit{
+    width: 100%;
+    margin-left: 0;
+  }
+  .widget_search .search-form label {
+    width: 100%;
+  }
+  .page-not-found .search-form {
+    width: 85%;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width : 600px) {
+
+}
+
+@media only screen and (max-width: 480px) {
+  .cta-sec .section-content{
+    padding: 15px 13px;
+  }
+  .nav .search {
+    padding: 0;
+  }
+  .section-explore .rl-explore-slider-item .explore-slider-desc-wrap .explore-footer{
+    text-align: left;
+  }
+  .search-btn {
+    width: 40px;
+  }
+
+  // .header{
+  //   height: 550px;
+  // }
+}
+
+@media only screen and (max-width : 320px) {
+  .rl-explore-slider .slick-next, .rl-explore-slider .slick-prev{
+    display: none !important;
+  }
+  .nav .social li {
+    margin-right: 6px;
+  }
+}

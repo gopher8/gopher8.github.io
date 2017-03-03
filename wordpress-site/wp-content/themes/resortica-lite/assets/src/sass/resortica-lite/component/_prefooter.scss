@@ -1,0 +1,43 @@
+.footer-widgets{
+    padding: 80px 0;
+    .widget {
+        .widget-title{
+            font-size: 21px;
+            color: #999999;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin: 0;
+             margin-bottom: 20px;
+        }
+        .gallery-widget img{
+            margin-bottom: 10px;
+            margin-right: 10px;
+        }
+        .gallery-widget img:nth-child(2), .gallery-widget img:nth-child(3){
+            width: 167px;
+        }
+    }
+}
+.jetpack_subscription_widget{
+    form{
+        position: relative;
+        #subscribe-email input[type="email"]{
+            padding: 10px;
+            border-radius: 6px;
+            box-shadow: none;
+            outline: 0;
+            border: 2px solid #e2e2e2;
+            width: 100%;
+        }
+        #subscribe-submit input[type="submit"] {
+            background: url("../img/arrow.png") no-repeat top left;
+            padding-left: 16px;
+            width: 54px;
+            border: none;
+            font-size: 0;
+            position: absolute;
+            bottom: 13px;
+            right: -1px;
+        }
+    }
+}

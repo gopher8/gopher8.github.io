@@ -1,0 +1,121 @@
+/* Global Styles */
+
+html{
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+html,
+body {
+    height: 100%;
+    color:$color__black-light;
+    line-height: 26px;
+}
+a{
+    color: $color__theme;
+    text-decoration: none;
+}
+a:hover,a:focus{
+    color: $color__theme;
+    text-decoration: none;
+}
+body {
+    font-family: "Open Sans";
+    font-size: 16px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+//buttons
+button, input[type="button"], input[type="reset"], input[type="submit"]{
+    box-shadow: none;
+    text-shadow: none;
+}
+// Remove the outline from buttons and a tag
+a, button, .btn, html input[type="button"],
+input[type="reset"], input[type="submit"]{
+    &:hover, &:focus, &:active{
+        outline: 0;
+        box-shadow: none;
+    }
+}
+.rl-btn{
+    border: 2px solid #e2e2e2;
+    text-transform: lowercase;
+    font-style: italic;
+    padding: 5px 17px;
+    background: transparent;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all 0.4s ease-in-out;
+    color: $color__theme;
+    font-size: 16px;
+    font-family: $text-btn;
+
+    &:hover, &:focus{
+        background: $color__theme;
+        border: 2px solid $color__theme;
+        color: #fff
+    }
+}
+.cta-btn{
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: $btn-big-family;
+    text-decoration: none;
+    background: $color__theme;
+    padding: 15px 36px;
+    border: 2px solid $color__theme;
+    transition: all 0.4s ease-in-out;
+    i{
+        margin-left: 10px;
+    }
+    &:hover, &:focus{
+        background: transparent;
+        color: $color__theme;
+    }
+}
+.btn-def{
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: "Roboto";
+    text-decoration: none;
+    background: #dcc423;
+    border: 2px solid $color__theme;
+    padding: 8px 10px;
+    transition: all 0.4s ease-in-out;
+        &:hover, &:focus{
+        background: transparent;
+        color: $color__theme;
+    }
+}
+.breadcrumb > li {
+    color: #fff;
+}
+.post-edit-link{
+    @extend .rl-btn;
+    border-radius: 4px;
+    padding: 3px 13px;
+    &:hover, &:focus{
+        background: $color__theme;
+        border: 2px solid $color__theme;
+        color: #fff
+    }
+}
+.comments-link a{
+    @extend .rl-btn;
+    border-radius: 4px;
+    padding: 3px 13px;
+    margin-left: 10px;
+    margin-right: 10px;
+    &:hover, &:focus{
+        background: $color__theme;
+        border: 2px solid $color__theme;
+        color: #fff
+    }
+}
+
+

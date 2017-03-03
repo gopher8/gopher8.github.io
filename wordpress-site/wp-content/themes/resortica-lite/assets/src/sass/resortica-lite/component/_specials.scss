@@ -1,0 +1,88 @@
+.section-special-offers{
+    background: url(../img/mikulov-city-czech-republic.jpg) no-repeat center center;
+        -webkit-background-size: cover;
+            -moz-background-size: cover;
+                background-size: cover;
+                    -o-background-size: cover;
+    margin-top: -154px;
+    padding-top: 170px;
+
+    .counter-wrap{
+        width: 100%;
+        .counter-item {
+            background: rgba(255, 255, 255, 0.2);
+            margin-top: 22px;
+            padding: 28px;
+            line-height: 45px;
+            position: relative;
+            width: 24.96%;
+            display: inline-block;
+            margin-left: -4px;
+            text-align: center;
+
+            span.timer {
+                font-size: 48px;
+                color: #fff;
+                line-height: 55px;
+                font-family: $text-italic;
+                font-weight: normal;
+            }
+            .counter-info{
+                h3{
+                    font-size: 14px;
+                    color: #fff;
+                    text-transform: uppercase;
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+    .section-content {
+        margin-top: 40px;
+
+        .decor-bar{
+            text-align: center;
+        }
+        h1.section-title {
+            color: #fff;
+            &:before{
+                display: none;
+            }
+        }
+    }
+    .special-offers-wrap{
+        .card{
+            .card-block{
+                h3.card-title {
+                    font-size: 30px;
+                    color: #b9b9b9;
+                    font-family: $text-italic;
+                    font-style: italic;
+                    margin: 0;
+                    font-weight: normal;
+                }
+                i.icon{
+                    color: #b9b9b9;
+                    &:hover{
+                        color: $color__theme;
+                    }
+                }
+            }
+        }
+        .specials-btn {
+            float: right;
+            text-align: right;
+            margin-top: 25px;
+        }
+    }
+    .decor-bar img{
+        max-width: 170px;
+        margin-bottom: 5px;
+    }
+}
+.section-special-offers{
+    .counter-wrap{
+        text-align: center;
+    }
+}

@@ -1,0 +1,53 @@
+.rl-section{
+    padding: 40px 0;
+}
+.solid-bg, .gradient-bg{
+    position: relative;
+    width: 100%;
+}
+.solid-bg:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    opacity: 0.8;
+    background-color: #1d242a;
+}
+.gradient-bg:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    opacity: 0.5;
+    /*cssmatic*/
+    background: rgba(92,207,225,1);
+    background: -moz-linear-gradient(top, rgba(92,207,225,1) 0%, rgba(127,54,163,1) 54%, rgba(0,0,0,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(92,207,225,1)), color-stop(54%, rgba(127,54,163,1)), color-stop(100%, rgba(0,0,0,1)));
+    background: -webkit-linear-gradient(top, rgba(92,207,225,1) 0%, rgba(127,54,163,1) 54%, rgba(0,0,0,1) 100%);
+    background: -o-linear-gradient(top, rgba(92,207,225,1) 0%, rgba(127,54,163,1) 54%, rgba(0,0,0,1) 100%);
+    background: -ms-linear-gradient(top, rgba(92,207,225,1) 0%, rgba(127,54,163,1) 54%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(to bottom, rgba(92,207,225,1) 0%, rgba(127,54,163,1) 54%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5ccfe1', endColorstr='#000000', GradientType=0 );
+}
+.section-content{
+    position: relative;
+    z-index: 9999;
+}
+.content-inner{
+    position: relative;
+    z-index: 9;
+}
+/* Tidbits */
+.scrollto-next{
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transform: translateX(-50%);
+    z-index: 9;
+    color: #fff;
+    font-size: 36px;
+}

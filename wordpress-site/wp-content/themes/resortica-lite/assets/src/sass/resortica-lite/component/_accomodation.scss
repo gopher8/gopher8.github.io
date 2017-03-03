@@ -1,0 +1,64 @@
+.section-accomodation {
+    position: relative;
+    margin-top: -240px;
+    padding-top: 280px;
+    background: url("../img/symphony.png") repeat;
+    &:before{
+        background: rgba(237, 245, 251, 0.75);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        content: '';
+    }
+    .accomodation-post-wrap{
+        height: 540px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        display: block;
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        outline: 0;
+        overflow: hidden;
+    }
+    .slide1{
+        background-image: url("../img/tree.jpg");
+    }
+    .slide2{
+        background-image: url("../img/1.jpg");
+    }
+    .slide3{
+        background-image: url("../img/lake.jpg");
+    }
+    .accomodation-footer {
+        position: absolute;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.8);
+        padding: 22px 30px;
+        top: auto;
+        bottom: 0;
+        opacity: 0;
+        left: -100px;
+        transition: all 0.7s ease;
+        h2{
+            margin: 0;
+            font-size: 30px;
+            font-style: italic;
+            font-family: $text-italic;
+            color: #444;
+            font-weight: normal;
+        }
+    }
+    .specials-btn {
+        float: right;
+        text-align: right;
+        margin-top: 30px;
+    }
+}
+.accomodation-post-wrap:hover .accomodation-footer{
+    opacity: 1;
+    transition: all 0.7s ease;
+    left: 0;
+}

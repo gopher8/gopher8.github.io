@@ -1,0 +1,150 @@
+# Copyright (C) 2016 Viva Themes
+# This file is distributed under the GNU GPL.
+msgid ""
+msgstr ""
+"Project-Id-Version: Blanche Lite 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/blanche-lite\n"
+"POT-Creation-Date: 2016-11-17 14:45:20+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: 404.php:13
+msgid "Oops! That page can&rsquo;t be found"
+msgstr ""
+
+#: archive.php:27
+msgid "Not Found"
+msgstr ""
+
+#: comments.php:18
+msgid "One comment"
+msgid_plural "%1$s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:30
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:33
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:36
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:46
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:37
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: footer.php:37
+msgid "Powered by %s."
+msgstr ""
+
+#: footer.php:37
+msgid "Theme by %1$s."
+msgstr ""
+
+#: functions.php:18
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:19
+msgid "Social"
+msgstr ""
+
+#: functions.php:35
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:45
+msgid "Top Widget"
+msgstr ""
+
+#: functions.php:55
+msgid "Front Widget"
+msgstr ""
+
+#: functions.php:65
+msgid "Footer Widgets"
+msgstr ""
+
+#: inc/extras.php:31
+msgid "Read More"
+msgstr ""
+
+#: inc/extras.php:52
+msgid "Y"
+msgstr ""
+
+#: inc/extras.php:54
+msgid "F Y"
+msgstr ""
+
+#: inc/extras.php:56
+msgid "F j, Y"
+msgstr ""
+
+#: inc/extras.php:62
+msgid "Archives"
+msgstr ""
+
+#: inc/extras.php:74
+msgid "Thanks for installing Blanche Lite! Want more features?"
+msgstr ""
+
+#: inc/extras.php:74
+msgid "Check Out the Pro Version  &#8594;"
+msgstr ""
+
+#: index.php:21
+msgid "You don&#39;t have any posts yet."
+msgstr ""
+
+#: page.php:21 single.php:24 template-full-width.php:21
+msgid "Pages:"
+msgstr ""
+
+#: search.php:12
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:26
+msgid "Posted on"
+msgstr ""
+
+#: search.php:37
+msgid "No results."
+msgstr ""
+#. Theme Name of the plugin/theme
+msgid "Blanche Lite"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://www.vivathemes.com/wordpress-theme/blanche/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Blanche Lite is a clean and professional WordPress theme that will make your website stand out from the crowd. It has a minimal design and a balanced layout that can be used for your fashion blog or personal and business website. Includes custom header, social media menu, four widget location, custom logo image, favicon and much more."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Viva Themes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.vivathemes.com"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full Width"
+msgstr ""

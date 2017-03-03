@@ -1,0 +1,38 @@
+.instagram{
+    background-image: url("../img/lake.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+    outline: 0;
+    position: relative;
+    margin-top: -195px;
+    padding-top: 325px;
+
+    &:before{
+        background: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        content: '';
+    }
+    .section-title{
+        color: #fff;
+    }
+    .instagram-wrap{
+        position: relative;
+        z-index: 999;
+        .insta-img{
+            outline: 0;
+            img{
+                margin-right: 0;
+                width: 100%;
+            }
+        }
+        .slick-next, .slick-prev{
+            top: 99.3%;
+        }
+    }
+}

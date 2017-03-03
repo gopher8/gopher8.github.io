@@ -1,0 +1,31 @@
+/* Social icon */
+.nav .social .fa-facebook:hover{
+  color: #3b5998;
+}
+.nav .social .fa-twitter:hover{
+  color: #55acee;
+}
+.nav .social .fa-google-plus:hover{
+  color: #dd4b39;
+}
+.nav .social .fa-linkedin:hover{
+  color: #007bb5;
+}
+.nav .social .fa-youtube-play:hover{
+  color: #bb0000;
+}
+.nav .social .fa-instagram:hover{
+  color: #e95950;
+}
+.nav .social .fa-pinterest:hover{
+  color: #cb2027;
+}
+.nav .social .fa-phone:hover{
+  color: $color__theme;
+}
+.nav .social .fa-envelope-o:hover{
+  color: $color__theme;
+}
+.nav .social .fa{
+    transition: all 0.4s ease-in-out;
+}

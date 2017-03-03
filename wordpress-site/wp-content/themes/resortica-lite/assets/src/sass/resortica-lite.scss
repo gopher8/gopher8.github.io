@@ -1,0 +1,77 @@
+
+
+/*--------------------------------------------------------------
+TABLE OF CONTENTS:
+----------------------------------------------------------------
+1. Bootstrap
+2. Base
+    ## Typography
+    ## Helpers
+3. layouts
+4. components
+5. vendors
+6. utils
+
+--------------------------------------------------------------*/
+
+@import "resortica-lite/utils/variables";
+
+
+/*--------------------------------------------------------------
+1. Bootstrap
+--------------------------------------------------------------*/
+@import "vendor/bootstrap",
+        "vendor/font-awesome";
+
+
+/*--------------------------------------------------------------
+2. Base
+--------------------------------------------------------------*/
+@import "vendor/animate",
+        "resortica-lite/base/helpers",
+        "resortica-lite/base/fonts",
+        "resortica-lite/base/typography";
+
+
+/*--------------------------------------------------------------
+
+3. layout
+--------------------------------------------------------------*/
+@import "resortica-lite/layout/footer",
+        "resortica-lite/layout/page-content",
+        "resortica-lite/layout/navigation",
+        "resortica-lite/layout/sections";
+
+
+/*--------------------------------------------------------------
+4. Components
+--------------------------------------------------------------*/
+@import "resortica-lite/component/about",
+        "resortica-lite/component/accomodation",
+        "resortica-lite/component/banner",
+        "resortica-lite/component/botfooter",
+        "resortica-lite/component/cta",
+        "resortica-lite/component/explore-sec",
+        "resortica-lite/component/header",
+        "resortica-lite/component/instagram",
+        "resortica-lite/component/prefooter",
+        "resortica-lite/component/specials",
+        "resortica-lite/component/stats",
+        "resortica-lite/component/widget",
+        "resortica-lite/component/testimonial";
+
+
+/*--------------------------------------------------------------
+5. Vendors
+--------------------------------------------------------------*/
+@import "vendor/slick",
+        "vendor/ionicons",
+        "vendor/sidr-light",
+        "vendor/vendor-overrides";
+
+/*--------------------------------------------------------------
+6. utils
+--------------------------------------------------------------*/
+@import "resortica-lite/utils/hover-effects",
+        "resortica-lite/utils/media-queries";
+

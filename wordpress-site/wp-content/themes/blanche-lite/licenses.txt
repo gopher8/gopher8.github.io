@@ -1,0 +1,18 @@
+Image used in the screen shot is Public domain, found here
+https://pixabay.com/en/woman-beach-picnic-rug-summer-1208328/
+
+-Genericons Font
+--By Automattic http://genericons.com/
+--Licensed under GPL
+
+-Superfish Menu
+--By Joel Birch http://users.tpg.com.au/j_birch/plugins/superfish/faq/
+--Dual licensed under the MIT and GPL licenses
+
+-On Screen
+--By Digital Fusion https://www.teamdf.com/
+--Licensed under MIT
+
+-Reaktion.js
+--By Ryan Brown http://ryantbrown.io/
+--Licensed under MIT

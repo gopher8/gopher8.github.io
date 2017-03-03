@@ -1,0 +1,74 @@
+.client-testimonials {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    z-index: 9;
+    text-align: center;
+    background-size: cover;
+    background: url("../img/symphony.png") repeat;
+    &:before{
+        background: rgba(237, 245, 251, 0.75);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        content: '';
+    }
+    h1.section-title{
+        margin-bottom: 35px;
+        text-transform: uppercase;
+        span.twitter-id {
+            font-size: 18px;
+            margin-left: 15px;
+            text-transform: lowercase;
+            color: $color__theme;
+        }
+    }
+    .testimonial-slide{
+        outline: 0;
+        .client-testimonial p{
+            font-size: 30px;
+            font-style: italic;
+            font-family: $text-italic;
+            color: #afafaf;
+            line-height: 40px;
+            padding: 0 130px;
+            font-weight: normal;
+        }
+    }
+    span.pagingInfo {
+        font-style: italic;
+        font-size: 21px;
+        color: #999999;
+        margin-top: 30px;
+        display: block;
+        font-family: $text-italic;
+    }
+
+    .slick-next, .slick-prev {
+        height: 0;
+        color: #999999;
+        width: 0;
+        background: transparent;
+        bottom: 0;
+        position: absolute;
+        top: 101%;
+    }
+    .slick-prev {
+        left: 43%;
+        &:before{
+            content: "\f2ca" !important;
+            font-family: "Ionicons";
+            font-size: 25px;
+        }
+    }
+    .slick-next {
+        right: 45%;
+        &:before{
+            content: "\f30f" !important;
+            font-family: "Ionicons";
+            font-size: 25px;
+        }
+    }
+}
